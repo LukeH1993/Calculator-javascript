@@ -9,3 +9,23 @@ var sub = 'subtract';
 var mul = 'multiply';
 var div = 'divide';
 
+//Calculator functionality
+if (calculator == 'add') {
+	firstNum = parseFloat(firstNum);
+	secondNum = parseFloat(secondNum);
+	alert('Your answer is: ' + firstNum + secondNum);
+} else if (calculator == 'sub') {
+	firstNum = parseFloat(firstNum);
+	secondNum = parseFloat(secondNum);
+	alert('Your answer is: ' + firstNum - secondNum);
+} else if (calculator == 'mul') {
+	firstNum = parseFloat(firstNum);
+	secondNum = parseFloat(secondNum);
+	alert('Your answer is: ' + firstNum * secondNum);
+} else if (calculator == 'div') {
+	firstNum = parseFloat(firstNum);
+	secondNum = parseFloat(secondNum);
+	alert('Your answer is: ' + firstNum / secondNum);
+} else {
+	alert('Please insert a number');
+}
