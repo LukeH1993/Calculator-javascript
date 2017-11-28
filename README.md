@@ -13,7 +13,7 @@ The purpose of this program is to enable users to add, subtract, multiply and di
 Once cloned, the calculator will run in the terminal.
 
 ## Built With
-This JavaScript program was built with the following web technologies using Sublime:
+This JavaScript program was built with the following web technologies using Sublime Text:
 
   * HTML
   * JavaScript
